@@ -12,6 +12,7 @@ defmodule BackendWeb.Router do
     post "/login",UserController,:login
     get "/details",UserController, :details
     put "/update", UserController, :update_details
+
   end
 
   # Enable LiveDashboard and Swoosh mailbox preview in development
